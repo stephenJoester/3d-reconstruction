@@ -1,0 +1,9 @@
+fastapi["standard"]
+uvicorn
+torch
+numpy
+trimesh
+open3d
+numba
+pymeshlab
+google-cloud-storage
