@@ -20,8 +20,6 @@ The backend is built with FastAPI, and the frontend is based on the open-source 
 
 ## Backend (Python + FastAPI)
 
-Make sure you have Python 3.8+ installed.
-
 ```bash
 # Navigate to backend directory
 cd backend
