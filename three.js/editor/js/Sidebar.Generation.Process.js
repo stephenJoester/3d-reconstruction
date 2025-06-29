@@ -21,7 +21,7 @@ function SideBarGenerationProcess(editor) {
         const vertices = new Float32Array(data.flat())
         geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3))
         const material = new THREE.PointsMaterial({
-            size: 0.01,
+            size: 0.03,
             color: 0x0000ff,
             sizeAttenuation: true
         })
@@ -137,7 +137,7 @@ function SideBarGenerationProcess(editor) {
             loader.load(blobUrl, function (geometry) {
                 geometry.computeVertexNormals();
 
-                const material = new THREE.MeshStandardMaterial({ color: 0x0055ff });
+                const material = new THREE.MeshStandardMaterial({ color: 0xb13e3e });
                 const mesh = new THREE.Mesh(geometry, material);
                 mesh.name = 'Generated Mesh';
 

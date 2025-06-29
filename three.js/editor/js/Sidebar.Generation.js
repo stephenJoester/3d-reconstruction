@@ -15,7 +15,7 @@ function SidebarGeneration(editor) {
         const vertices = new Float32Array(data.flat())
         geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3))
         const material = new THREE.PointsMaterial({
-            size: 0.01,
+            size: 0.03,
             color: 0x0ff00,
             sizeAttenuation: true
         })
